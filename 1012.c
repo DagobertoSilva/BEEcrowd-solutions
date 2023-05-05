@@ -1,7 +1,7 @@
 #include <stdio.h>
  
 int main() {
-float A, B, C, pi = 3.14159;
+float A, B, C;
 scanf("%f %f %f", &A, &B, &C);  //recebendo as variáveis do usuário
 printf("TRIANGULO: %.3f\n", (A*C)/2);
 printf("CIRCULO: %.3f\n", 3.14159*(C*C));
