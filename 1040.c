@@ -6,7 +6,6 @@ int main() {
 
     scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
 
-    printf("%", n1);
     media = ((n1*2) + (n2*3) + (n3 * 4) + (n4 * 1)) / (2 + 3 + 4 + 1);
 
     printf("Media: %.1f\n", media);
